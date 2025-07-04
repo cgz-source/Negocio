@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Tienda</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
+    .producto { border: 1px solid #ccc; border-radius: 10px; padding: 10px; margin: 10px; width: 200px; background: #fff; }
+    .productos { display: flex; flex-wrap: wrap; gap: 20px; }
+    img { width: 100%; height: auto; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Productos</h1>
+  <div class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/200" alt="Producto 1">
+      <h3>Producto 1</h3>
+      <p>Descripción breve del producto.</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/200" alt="Producto 2">
+      <h3>Producto 2</h3>
+      <p>Otra descripción simple.</p>
+    </div>
+    <!-- Puedes copiar más bloques como este -->
+  </div>
+</body>
+</html>
